@@ -1,0 +1,650 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>task3</title>
+    <link rel="stylesheet" href="fontawesome-free-6.7.1-web/fontawesome-free-6.7.1-web/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>
+    <section id="mini-nav" class="d-flex  container w-100 py-1">
+       <div class="d-flex w-50 ">
+        <div class=" pr-1">
+            <label>Country:</label>
+            <select class="border-0 outline-none">
+                <option>Sweden</option>
+                <option>Sweden</option>
+                <option>Sweden</option>
+            </select>
+        </div>
+        <div class=" pr-1">
+            <label>Language:</label>
+            <select class="border-0 outline-none">
+                <option> Svenska</option>
+                <option> Svenska</option>
+                <option> Svenska</option>
+            </select>
+        </div>
+        <div class=" pr-1">
+            <label>Currency: $</label>
+            <select class="border-0 outline-none">
+                <option>EGP</option>
+                <option>EGP</option>
+                <option>EGP</option>
+            </select>
+        </div>
+       </div>
+       <div class="d-flex w-50 justify-end ">
+        <div class=" pr-1 ">
+            <a href="tel:+32 (0) 15 28 76 67" class="text-decoration-none blue-color">
+                <i class="fa-solid fa-phone-flip phone"></i>
+                +32 (0) 15 28 76 67
+            </a>
+        </div>
+        <div class=" d-flex border-right pr-1 w-18">
+            <p class="p-relative ">
+                <i class="fa-regular fa-envelope"></i>
+                <span class="circle-absolute">12</span>
+            </p>
+            <p class="pl-8">messages</p>
+        </div>
+        <div class="d-flex">
+            <i class="fa-regular fa-circle-user pr-1"></i>
+            <label for="">Username</label>
+            <select class="border-0 outline-none">
+                <option>Surname</option>
+                <option>Surname</option>
+                <option>Surname</option>
+            </select>
+
+        </div>
+       </div>
+    </section>
+    <section id="search-bar" class="container d-flex space-between py-1">
+        <div class="w-25">
+            <h1 class="text-dark-color py-1">Commerce</h1>
+        </div>
+        <div id="search">
+            <i class="fa-solid fa-magnifying-glass blue-color"></i>
+            <input name="search" type="text" placeholder="search by product or SKU" class="border-0 outline-none">
+        </div>
+        <div class="w-25 text-end align-self-center  ">
+            <a href="" class="text-decoration-none ">Quick Order Form</a>
+        </div>
+    </section>
+        <section id="nav" class="d-flex  container w-100 py-2">
+            <nav class="d-flex w-50  list-style-none">
+                <li class="nav-item pr-5"><a href="" class="active text-decoration-none text-dark-color">Home & Gared</a></li>
+                <li class="nav-item pr-5"><a href="" class="text-decoration-none text-dark-color">MOTORS</a></li>
+                <li class="nav-item pr-5"><a href="" class="text-decoration-none text-dark-color">ELECTRONICS</a></li>
+                <li class="nav-item pr-5"><a href="" class="text-decoration-none text-dark-color">OFFICE EQUIPMENT</a></li>
+            </nav>
+            <div class="d-flex w-50 justify-end ">
+                <div class=" text-center px-1 blue-color">
+                    <span class="p-relative">
+                        <i class="fa-solid fa-code-compare "></i>
+                        <span class="circle-absolute">3</span>
+                    </span>
+                    <p>Compare</p>
+                </div>
+                <div class="text-center px-1 blue-color">
+                    <span class="p-relative ">
+                        <i class="fa-solid fa-star"></i>
+                        <span class="circle-absolute">7</span>
+                    </span>
+                    <p >FAVORITES</p>
+                </div>
+                    <div class="text-center px-1 blue-color">
+                        <span class="p-relative">
+                            <i class="fa-solid fa-cart-shopping  "></i>
+                            <span class="circle-absolute">45</span>
+                        </span>
+                        <p>CART</p>
+                    </div>
+               </div>
+         </section>
+    
+</header>
+    <!--start section brands -->
+     <section class="brands p-relative my-10 container">
+            <div class="my-2  d-flex space-between">
+                <h2 class="">Our brands</h2>
+                <span class="style-span d-flex ml-60">
+                    Show all brands
+                    <i class="fa-solid fa-arrow-right"></i>
+                </span>
+            </div>
+            <div class="brands-images  text-center p-relative d-flex space-between">
+                <img src="images/brand1.png" alt="brand1">
+                <img src="images/brand2.png" alt="brand2">
+                <img src="images/brand3.png" alt="brand3">
+                <img src="images/brand4.png" alt="brand4">
+            </div>
+    </section> 
+    <!--end section brands -->
+    <!-- start section products -->
+     <section class="products p-relative my-10  container">
+            <div class="my-2 d-flex space-between">
+                <h2 class="">Recommended products</h2>
+                <span class="style-span d-flex ml-60">
+                    Show all recommended products
+                    <i class="fa-solid fa-arrow-right"></i>
+                </span>
+            </div>
+            <div class="d-flex space-between">
+                <div class="product-item w-23 ">
+                    <div class="products-image p-relative">
+                        <span class=" product-span-orange">-30%</span>
+                        <i class="fa-regular fa-star product-starIcon"></i>
+    <img src="images/product1.png" alt="product1" class="img-fluid">
+    <span class="stock-green">
+        <i class="fa-regular fa-circle-check"></i>
+        in stock
+    </span>
+    <i class="fa-solid fa-vector-square product-vectorIcon"></i>
+    <i class="fa-solid fa-share-nodes product-shareIcon"></i>
+                    </div>
+                    <div class="products-text my-1">
+                        <span class="text-dark-color ">Omnires | Part No. 2123532</span>
+                        <h3>Connection with a handle Omnires round</h3>
+                        <ul class="list-style-none">
+                            <li class="paading-5">Material of execution: brass</li>
+                            <li class="paading-5">Manufacturer’s color: chrome</li>
+                            <li class="paading-5">Guarantee: 5 years</li>
+                        </ul>
+                        <div class="price">
+                            <span class="blue-color my-1">your price $45.00 net </span>
+                            <span class="delete-price">$55.00 net</span>
+                        </div>
+                        <div class="d-flex">
+                            <input type="number"  class="input-number my-1" >
+                        <select name="" id="" class="select-item">
+                            <option value="item1"  >item</option>
+                        </select>
+                        </div>
+                        
+                        <button class=" product-button text-decoration-none  d-block">
+                            Add to cart
+                            <i class="fa fa-chevron-down"></i>
+                        </button>
+                     
+                    </div>
+                </div>
+                <div class="product-item w-23 ">
+                    <div class="products-image p-relative">
+                        <span class=" product-span-orange">-15%</span>
+                        <i class="fa-regular fa-star product-starIcon"></i>
+    <img src="images/product2.png" alt="product2" class="img-fluid">
+    <span class="stock-green">
+        <i class="fa-regular fa-circle-check"></i>
+        in stock
+    </span>
+    <i class="fa-solid fa-vector-square product-vectorIcon"></i>
+    <i class="fa-solid fa-share-nodes product-shareIcon"></i>
+                    </div>
+                    <div class="products-text my-1">
+                        <span class="text-dark-color ">GoodHome | Part No. 234565</span>
+                        <h3>Countertop washbasin GoodHome Tekapo</h3>
+                        <ul class="list-style-none">
+                            <li class="paading-5">Basin width : 45 cm</li>
+                            <li class="paading-5">Basin height: 12 cm</li>
+                            <li class="paading-5">Basin depth: 35 cm</li>
+                        </ul>
+                        <div class="price">
+                            <span class="blue-color my-1">your price $51.00 net </span>
+                            <span class="delete-price">$64.00 net</span>
+                        </div>
+                        <div class="d-flex">
+                            <input type="number"  class="input-number my-1" >
+                        <select name="" id="" class="select-item">
+                            <option value="item1"  >item</option>
+                        </select>
+                        </div>
+                        
+                        <button class=" product-button text-decoration-none  d-block">
+                            Add to cart
+                            <i class="fa fa-chevron-down"></i>
+                        </button>
+                     
+                    </div>
+                </div>
+                <div class="product-item w-23 ">
+                    <div class="products-image p-relative">
+                        <span class=" product-span-orange">-15%</span>
+                        <i class="fa-regular fa-star product-starIcon "></i>
+    <img src="images/product2.png" alt="product3" class=" img-fluid">
+    <span class="stock-green">
+        <i class="fa-regular fa-circle-check"></i>
+        in stock
+    </span>
+    <i class="fa-solid fa-vector-square product-vectorIcon"></i>
+    <i class="fa-solid fa-share-nodes product-shareIcon"></i>
+                    </div>
+                    <div class="products-text my-1">
+                        <span class="text-dark-color ">GoodHome | Part No. 234565</span>
+                        <h3>perforated simpson tape 25 x 2500 x 2 mm</h3>
+                        <ul class="list-style-none">
+                            <li class="paading-5">Basin width : 45 cm</li>
+                            <li class="paading-5">Basin height: 12 cm</li>
+                            <li class="paading-5">Basin depth: 35 cm</li>
+                        </ul>
+                        <div class="price">
+                            <span class="blue-color my-1">your price $51.00 net </span>
+                            <span class="delete-price">$64.00 net</span>
+                        </div>
+                        <div class="d-flex">
+                            <input type="number"  class="input-number my-1" >
+                        <select name="" id="" class="select-item">
+                            <option value="item1">item</option>
+                        </select>
+                        </div>
+                        
+                        <button class=" product-button text-decoration-none  d-block">
+                            Add to cart
+                            <i class="fa fa-chevron-down"></i>
+                        </button>
+                     
+                    </div>
+                </div>
+                <div class="product-item w-23">
+                    <div class="products-image p-relative">
+                        <span class=" product-span-orange">-15%</span>
+                        <i class="fa-regular fa-star product-starIcon"></i>
+    <img src="images/product1.png" alt="product4" class="img-fluid">
+    <span class="exp-delivery">
+        <i class="fa fa-circle-exclamation"></i>
+        exp. delivery on jun 14.2022
+    </span>
+    <i class="fa-solid fa-vector-square product-vectorIcon"></i>
+    <i class="fa-solid fa-share-nodes product-shareIcon"></i>
+                    </div>
+                    <div class="products-text my-1">
+                        <span class="text-dark-color ">GoodHome | Part No. 234565</span>
+                        <h3>AMBER DECOR Blub 60W 590,E27</h3>
+                        <ul class="list-style-none">
+                            <li class="paading-5">Basin width : 45 cm</li>
+                            <li class="paading-5">Basin height: 12 cm</li>
+                            <li class="paading-5">Basin depth: 35 cm</li>
+                        </ul>
+                        <div class="price">
+                            <span class="blue-color my-1">your price $51.00 net </span>
+                            <span class="delete-price">$64.00 net</span>
+                        </div>
+                        <div class="d-flex">
+                            <input type="number"  class="input-number my-1" >
+                        <select name="" id="" class="select-item">
+                            <option value="item1"  >item</option>
+                        </select>
+                        </div>
+                        <button class=" product-button text-decoration-none  d-block">
+                            Add to cart
+                            <i class="fa fa-chevron-down"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+     </section>
+    <!-- end section products -->
+     <!-- start section offer -->
+      <section class="offer my-5 p-relative ">
+<div class="container">
+    <img src="images/image+texts.png" alt="image-offer" class="img-fluid ">
+    <button class="btn-offer btn-bg-white border-0 w-20">
+        <a href="" class="blue-color text-decoration-none">Check Offer</a>
+    </button>
+</div>
+      </section>
+     <!-- end section offer -->
+
+     <!-- start section Categories -->
+     <section class="Categories p-relative my-5  ">
+        <div class="container">
+            <div class="my-2">
+                <h2 class="d-inline-block">Recommended Categories</h2>
+                <span class="style-span d-inline-block ml-60">
+                    Show all Categories
+                    <i class="fa-solid fa-arrow-right"></i>
+                </span>
+            </div>
+            <div class="categories-box d-flex space-between ">
+                <div class="categories-item">
+                    <div class="Categories-image  m-0 p-relative" >
+                        <img src="images/categories1.png" alt="categories1" class="img-fluid">
+                        <h3 class="py-5 px-5 text-center">Photovoltaics</h3>
+                    </div> 
+                </div>
+                <div class="categories-item">
+                    <div class="Categories-image  m-0 p-relative" >
+                        <img src="images/categories2.png" alt="categories2" class="img-fluid">
+                        <h3 class="py-5 px-5 text-center">Electronics</h3>
+                    </div> 
+                </div>
+                <div class="categories-item">
+                    <div class="Categories-image  m-0 p-relative" >
+                        <img src="images/categories3.png" alt="categories3" class="img-fluid">
+                        <h3 class="py-5 px-5 text-center">Light Sources</h3>
+                    </div> 
+                </div>
+                <div class="categories-item">
+                    <div class="Categories-image  m-0 p-relative" >
+                        <img src="images/categories4.png" alt="categories4" class="img-fluid">
+                        <h3 class="py-5 px-5 text-center">Ventilation and Heating</h3>
+                    </div> 
+                </div>
+            
+            </div>
+            </div>
+            </div>
+     </section>
+     <!-- end section Categories -->
+      <!--start section hints -->
+      <section class="hints p-relative my-5 ">
+        <div class="container">
+            <div class="my-2">
+                <h2 class="d-inline-block">Hints for you</h2>
+                <span class="style-span d-inline-block ml-60">
+                    Show all hints
+                    <i class="fa-solid fa-arrow-right"></i>
+                </span>
+            </div>
+            <div class="hints-box d-flex space-between ">
+                <div class="hints-item p-relative">
+                    <div class="hints-image p-relative  m-0 " >
+                        <img src="images/hints1.png" alt="hints1" class="img-fluid">
+                    </div> 
+                    <div class="hints-text ">
+<h3 class="my-3 space-word">How much does it cost to finish an apartment?</h3>
+<p class="my-3 line-height">Are you standing on the threshold of your own "M", to which you have just picked up the keys, and with the eye...</p>
+<button class="border-0 my-2 py-2 more-button" >
+    <a href="" class="text-decoration-none blue-color">
+        Read more
+        <i class="fa-solid fa-arrow-right"></i>
+    </a> 
+</button>
+                    </div>
+                </div>
+                <div class="hints-item p-relative">
+                    <div class="hints-image  m-0 p-relative" >
+                        <img src="images/hints2.png" alt="hints2" class="img-fluid">
+                    </div> 
+                    <div class="hints-text ">
+                        <h3 class="my-3 space-word">Demolition of the load-bearing wall</h3>
+                        <p class="my-3 line-height">Are you planning a home renovation or renovation? Your vision is limited by the load-bearing wall, which you...</p>
+                        <button class="border-0 my-2 py-2 more-button">
+                            <a href="" class="text-decoration-none blue-color">
+                                Read more
+                                <i class="fa-solid fa-arrow-right"></i>
+                            </a> 
+                        </button>
+                                            </div>
+                </div>
+                <div class="hints-item p-relative">
+                    <div class="hints-image  m-0 p-relative" >
+                        <img src="images/hints3.png" alt="hints3" class="img-fluid">
+                    </div> 
+                    <div class="hints-text ">
+                        <h3 class="my-3 space-word">What color to paint a hall in a block of flats? </h3>
+                        <p class="my-3 line-height">Matching the right paint is a real challenge. If you are wondering what color to paint your hall with, you can...</p>
+                        <button class="border-0 my-2 py-2 more-button ">
+                            <a href="" class="text-decoration-none blue-color">
+                                Read more
+                                <i class="fa-solid fa-arrow-right"></i>
+                            </a> 
+                        </button>
+                    </div>
+                </div>
+                <div class="hints-item p-relative">
+                    <div class="hints-image  m-0 p-relative" >
+                        <img src="images/hints4.png" alt="hints4" class="img-fluid">
+                </div>
+                <div class="hints-text ">
+                    <h3 class="my-3 space-word">How does a concrete pump work?</h3>
+                    <p class="my-3 line-height">A concrete pump is currently one of the most common equipment used on construction sites. Its operation...</p>
+                    <button class="border-0 my-2 py-2 more-button">
+                        <a href="" class="text-decoration-none blue-color">
+                            Read more
+                            <i class="fa-solid fa-arrow-right"></i>
+                        </a> 
+                    </button>
+                </div>
+            </div>
+            </div>
+            </div>
+     </section>
+     <!-- end section hints -->
+      <!--start section bundle -->
+      <section class="bundle my-5">
+        <div class="container">
+            <div class="bundle-box d-flex space-between ">
+                <div class="bundle-image w-58">
+                    <img src="images/bundle.png" alt="bundle-image" class="img-fluid">
+                </div>
+                <div class="bundle-content w-40 p-relative ">
+                    <div class="text ">
+                        <h3 class="my-5 font-weight">Buy this bundle and save $100!</h3>
+                    <p class="py-2 line-height ">Longer sentence, for just two lines </p>
+                    <p lass="py-2 line-height "> and it could be very very long</p>
+                    <button class="border-0 my-5 btn-bg-white" >
+                        <a href="" class="text-decoration-none blue-color">
+                            Buy this bundle
+                        </a> 
+                    </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+      </section>
+      <!--end section bundle -->
+      <!--start section new -->
+      <section class="new  py-3">
+        <div class="container">
+            <div class="new-box d-flex space-between ">
+                <div class="new-item  d-flex ">
+                    <div class="new-tittle d-flex">
+                        <div>  <h4>New tool kits!</h4></div>
+                        <div class="new-image">
+                            <img src="images/new1.png" alt="new1" class="img-fluid">
+                        </div>
+                    </div>
+                </div>
+                <div class="new-item  d-flex ">
+                    <div class="new-tittle d-flex">
+                        <div>  <h4>New rules for wind farms!</h4></div>
+                        <div class="new-image">
+                            <img src="images/new1.png" alt="new1" class="img-fluid">
+                        </div>
+                    </div>
+                </div>
+                <div class="new-item  d-flex ">
+                    <div class="new-tittle d-flex">
+                        <div>  <h4>New iPhone now available!</h4></div>
+                        <div class="new-image">
+                            <img src="images/new3.png" alt="new3" class="img-fluid">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+      </section>
+      <!--end section new -->
+      <!--start section DPD -->
+      <section class="delivery my-5 py-3">
+        <div class="container">
+            <div class="delivery-box d-flex space-between ">
+                <div class="delivery-content p-relative ">
+                    <div class="text  ">
+                        <h3 class="my-5 font-weight">DPD delivery already available!</h3>
+                    <p class="py-2 line-height ">Choose DPD for speed, ease and convenience. Track your parcel in real time. This will help you plan your work while waiting for the parcel. </p>
+                    <button class="border-0 my-5 py-2 " >
+                        <a href="" class="text-decoration-none">
+                           show more
+                        </a> 
+                    </button>
+                    </div>
+                </div>
+                <div class="delivery-image w-50">
+                    <img src="images/dbd.png" alt="delivery-image" class="img-fluid">
+                </div>
+            </div>
+        </div>
+      </section>
+      <!--end section DPD -->
+      <!-- start section events -->
+      <section class="events p-relative my-5 ">
+        <div class="container">
+            <div class="my-2">
+                <h2 class="d-inline-block">events for you</h2>
+                <span class="style-span d-inline-block ml-60">
+                    Show all events
+                    <i class="fa-solid fa-arrow-right"></i>
+                </span>
+            </div>
+            <div class="events-box d-flex space-between ">
+                <div class="events-item p-relative">
+                    <div class="events-image p-relative  m-0 " >
+                        <img src="images/events1.png" alt="events1" class="img-fluid">
+                    </div> 
+                    <div class="events-text ">
+<h3 class="my-3 space-word">How much does it cost to finish an apartment?</h3>
+<span class="py-5 blue-color">23.05.2021 | London, UK</span>
+<p class="my-3 line-height">Are you standing on the threshold of your own "M", to which you have just picked up the keys, and with the eye...</p>
+<button class="border-button  my-2  more-button" >
+    <a href="" class="text-decoration-none blue-color">
+        know more
+    </a> 
+</button>
+                    </div>
+                </div>
+                <div class="events-item p-relative">
+                    <div class="events-image  m-0 p-relative" >
+                        <img src="images/events2.png" alt="events2" class="img-fluid">
+                    </div> 
+                    <div class="events-text ">
+                        <h3 class="my-3 space-word">Demolition of the load-bearing wall</h3>
+                        <span class="py-5 blue-color">04-06.11.2021 | London, UK</span>
+                        <p class="my-3 line-height">Are you planning a home renovation or renovation? Your vision is limited by the load-bearing wall, which you...</p>
+                        <button class="border-button my-2  more-button">
+                            <a href="" class="text-decoration-none blue-color">
+                                know more
+                            </a> 
+                        </button>
+                                            </div>
+                </div>
+                <div class="events-item p-relative">
+                    <div class="events-image  m-0 p-relative" >
+                        <img src="images/events3.png" alt="events3" class="img-fluid">
+                    </div> 
+                    <div class="events-text ">
+                        <h3 class="my-3 space-word">What color to paint a hall in a block of flats? </h3>
+                        <span class="py-5 blue-color">04-06.11.2021 | London, UK</span>
+                        <p class="my-3 line-height">Matching the right paint is a real challenge. If you are wondering what color to paint your hall with, you can...</p>
+                        <button class="border-button my-2  more-button">
+                            <a href="" class="text-decoration-none blue-color">
+                                know more
+                            </a> 
+                        </button>
+                    </div>
+                </div>
+                <div class="events-item p-relative">
+                    <div class="events-image  m-0 p-relative" >
+                        <img src="images/events4.png" alt="events4" class="img-fluid">
+                </div>
+                <div class="events-text ">
+                    <h3 class="my-3 space-word">How does a concrete pump<br> work?</h3>
+                    <span class="py-5 blue-color">31.03.2021 | London, UK</span>
+                    <p class="my-3 line-height">A concrete pump is currently one of the most common equipment used on construction sites. Its operation...</p>
+                    <button class="border-button my-2 more-button">
+                        <a href="" class="text-decoration-none blue-color">
+                            know more
+                        </a> 
+                    </button>
+                </div>
+            </div>
+            </div>
+            </div>
+     </section>
+      <!-- end section events -->
+      <!-- start section signup -->
+<section class="signup py-3">
+    <div class="container">
+        <div class="signup-box d-flex space-between">
+            <div class="signup-item item-checkbox">
+                <h4>Sign up for news</h4>
+                  <p> Keep up to date with the latest product launches and news. Find out more about our brands and get special promo codes.</p>
+                    <form action="" class="p-relative">
+                        <input type="email" placeholder="your e-mail address" class="email border-0">
+                        <button class="border-0  my-5 d-block" >
+                            <a href="" class="text-decoration-none ">Sign up for newsletter</a>
+                        </button>
+                        <label for="" class="label-check p-relative"></label>
+                            <p>
+                                I accept <span class="blue-color">
+                                    the personal data management.
+                                </span>
+                            </p>
+                          </label>
+                    </form>
+                    
+            </div>
+            <div class="signup-item">
+<h4>How to buy</h4>
+<p>Payment methods
+    Order and pick up
+    Order with delivery
+    Shopping over the phone
+    Returns
+    Link
+    Link</p>
+            </div>
+            <div class="signup-item">
+                <h4>Help</h4>
+                <p>Contact
+                    Online Help
+                    Our Commitments
+                    
+                    Give feedback
+                    Link
+                    Link</p>
+            </div>
+            <div class="signup-item">
+                <h4>Services</h4>
+                <p>Transport
+                    Design service
+                    Paint an plaster mixing service
+                    Dimensioning and assemly service
+                    Return of used equipment
+                    Link
+                    Additional services</p>
+            </div>
+            <div class="signup-item">
+                <h4>About</h4>
+                <p>About us
+                    Press Office
+                    For suppliers
+                    Regulations
+                    Privacy Policy
+                    Cookies
+                    Personal Data Request</p>
+            </div>
+        </div>
+    </div>
+</section>
+      <!-- end section events -->
+<!-- start footer -->
+ <footer class="py-2">
+    <div class="container d-flex space-between">
+<div class="footer-span">
+    <p> &copy;<span class="text-dark-color">2021 Divante S.A.</span></p>
+   
+</div>
+<div class="footer-icons d-flex ">
+    <i class="fa-brands fa-facebook"></i>
+    <i class="fa-brands fa-instagram"></i>
+    <i class="fa-brands fa-youtube"></i>
+</div>
+    </div>
+ </footer>
+</body>
+</html>

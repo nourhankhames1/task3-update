@@ -1,0 +1,284 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+:root{
+    --blue-color:#1071ff;
+    --orange-color:#ff7e27;
+    --bg-color:#F6F8FB;
+
+}
+.bg-color{background-color: var(--bg-color);}
+.blue-color{color: var(--blue-color);}
+.text-dark-color{color: #434447;}
+.border-0{border: 0;}
+.outline-none{outline: none;
+    background-color: transparent;}
+.border-right{border-right: 2px solid #434447;
+margin-right: 10px;
+}
+.border-1{border: 1px solid var(--blue-color);}
+.border-radius-50{border-radius: 50px;}
+.container{padding-left: 5%; padding-right: 5%;}
+.w-18{width: 18%;}
+.w-23{width: 23%;}
+.w-25{width: 25%;}
+.w-50{ width: 50%;}
+.w-60{width: 60%;}
+.img-fluid{max-width: 100%;
+min-width: 100%;}
+.d-inline-block{ display: inline-block;}
+.d-block{display: block;}
+.d-flex{display: flex;}
+.space-between{justify-content: space-between;}
+.space-around{justify-content: space-around;}
+.justify-end{justify-content: end;}
+.text-end{ text-align: end;}
+.align-self-center{ align-self: center;}
+.text-center{text-align: center;}
+.font-weight{font-weight: 900;}
+.line-height{line-height: 1.5;}
+.space-word{word-spacing: 4px;}
+.list-style-none{list-style: none;}
+.text-decoration-none{text-decoration: none}
+.paading-5{ padding: 5px 0;}
+.py-1{padding-top:1%; padding-bottom:1%;}
+.pr-1{padding-right: 1%;}
+.pl-8{padding-left: 8%;}
+.py-2{padding-top:2%; padding-bottom:2%;}
+.py-3{padding-top:3%; padding-bottom:3%;}
+.py-5{padding-top:5%; padding-bottom:5%;}
+.pr-5{padding-right: 5%;}
+.px-5{padding-left:5%; padding-right:5%;}
+.px-1{padding-left:1%; padding-right:1%;}
+
+.m-auto{ margin: auto;}
+.m-0{margin: 0;}
+.my-1{margin-top: 1%;margin-bottom: 1%;}
+.my-2{margin-top: 2%;margin-bottom: 2%;}
+.my-3{margin-top: 3%;margin-bottom: 3%;}
+.my-5{ margin-top: 5%;margin-bottom: 5%;}
+.mx-2{margin-left: 2%;margin-right: 2%;}
+.ml-60{margin-left: 60%}
+.p-absolute{position: absolute;}
+.p-relative{ position: relative;}
+.circle-absolute{
+    width: 18px;
+    height: 18px;
+    border-radius: 50%;
+    position: absolute;
+    top: -9px;
+    left: 11px;
+    background-color: #ff7e27;
+    color: white;
+    text-align: center;
+}
+.style-span{
+    color: var(--blue-color);
+    position: absolute;
+    right: 5%;
+    top: 0;
+}
+.w-100{width: 100%;}
+/* section bar */
+#mini-nav{background-color: var(--bg-color);}
+/* section search bar */
+#search{
+    width: 40%;
+    border: 1px solid #eee;
+    padding: 1%;
+    border-radius: 5px;
+}
+#search i{width: 3%;}
+#search input{width: 95%;
+padding: 1%;}
+#search-bar a{
+    background-color: var(--blue-color);
+    color: white;
+    border-radius: 20px;
+    padding: 4% 7%;
+}
+/* section nav-bar---------------------- */
+#nav{background-color: var(--bg-color);}
+
+/* section products------------------------------ */
+.product-span-orange{
+background-color: var(--orange-color);
+color: white;
+padding: 8px;
+position: absolute;
+left: 0;
+top: 0;
+}
+.stock-green{color: green;}
+.exp-delivery{color: red;}
+.product-starIcon{
+    width: 28px;
+    height: 28px;
+    border-radius: 50%;
+    padding-top: 5px;
+text-align: center;
+background-color: var(--bg-color);
+color: var(--blue-color);
+position: absolute;
+right: 0;
+top: 0;
+}
+.product-shareIcon{
+    color: var(--blue-color);
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+.product-vectorIcon{
+    color: var(--blue-color);
+    position: absolute;
+    right: 0;
+    bottom:20px;
+}
+.delete-price{
+    color: var(--orange-color);
+    text-decoration: line-through;
+}
+.input-number{
+    width: 100px;
+    padding: 10px;
+}
+.select-item{
+    margin-left: 5px;
+    width: 171px;
+    padding: 10px;
+}
+
+.product-button,.button-bg-transparent{
+    color: white;
+    padding: 10px 28px;
+    width: 270px;
+    border-radius: 50px;
+    margin-top: 10px;
+}
+.product-button{background-color: var(--blue-color) ; border: 0;}
+.button-bg-transparent{
+    background-color: transparent;
+    border: 2px solid var(--blue-color);
+    color: var(--blue-color);
+    
+}
+
+/* section offer-------------------------------- */
+.offer{background-color: #1071ff;}
+.offer .btn-offer{
+    width: 15%;
+    position: absolute;
+    right: 3%;
+    top: 50%;
+    transform: translateY(-50%);
+}
+/* section categories-------------------------------- */
+.categories-item {width: 24%;}
+.categories-item h3{
+width: 100%;
+    background-color: var(--blue-color);
+color: white;
+position: absolute;
+bottom: 0px;
+left: 0;}
+/* class more-button groubing in section hints and events */
+.more-button{padding: 18px; background-color: white;}
+.more-button a{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    padding: 18px;
+    text-transform: capitalize;
+    }
+    .border-button{
+        border: 2px solid var(--blue-color);
+        border-radius: 50px;
+        width: 45%;
+    }
+    .btn-bg-white{
+        border-radius: 50px;
+        padding: 18px;
+        background-color: white;
+    }
+/* --------------------------------- */
+/* section hints-------------------------- */
+.hints-item {width: 24%;
+}
+/* section events------------- */
+.events-item {width: 24%;}
+/* section bundle------------------------- */
+.bundle-image{width: 58%;}
+.bundle-content{background-color: var(--blue-color);
+    border-radius: 10px;
+color: white;
+text-align: left;
+width: 40%;}
+.bundle-content .text{
+    position: absolute;
+    left: 8%;
+    top: 50%;
+    transform: translatey(-50%);
+    padding: 15% ;
+}
+
+.bundle-content button{width: 60%;}
+/* section new--------------------------- */
+.new-item{width: 32%;}
+.new .new-tittle h4,.new-image img{
+    height: 230px;
+    width: 204px;
+}
+.new .new-tittle h4{
+background-color: #ff7e27;
+padding-top: 50%;
+text-align: center;
+color: white;
+border-top-left-radius: 10px;
+border-bottom-left-radius: 10px;}
+
+/* section delivery ------------------------*/
+.delivery{background-color: var(--bg-color);}
+.delivery-content{width: 48%;}
+.delivery-content .text h3{font-size: 40px;}
+.delivery-content .text p{width: 55%;}
+.delivery-content button{
+    border-radius: 50px;
+    width: 30%;
+    padding: 18px;
+    background-color: var(--blue-color);
+}
+.delivery-content button a{color: white;}
+/* section signup------------------ */
+.signup{background-color: var(--bg-color);}
+.signup-item{width: 19%;}
+.signup-item p{line-height: 1.8;
+margin-top: 15px;
+}
+.item-checkbox{width: 21%;}
+.signup-item .email{width:90%;
+padding: 10px;
+border-radius: 8px;}
+.signup-item button{
+    width:90%;
+padding: 10px;
+    border-radius: 50px;
+    background-color: #1071ff;
+    padding: 5%;
+}
+.signup-item button a{color: white;}
+/* footer----------- */
+footer{background-color: var(--bg-color);}
+.footer-icons i{
+    width: 30px;
+    height: 30px;
+    background-color: black;
+    color: white;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 10px;
+}
